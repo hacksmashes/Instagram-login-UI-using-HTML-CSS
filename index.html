@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="loginContainer">
+            <div class="iconContainer">
+                <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png"
+                    alt="instagram logo" />
+            </div>
+            <form class="form" id="form">
+                <input placeholder="Phone number, username, or email" class="username" />
+                <input placeholder="Password" id="password" onchange="btnCheck()" />
+
+                <button class="submit" id="submit" type="submit">Log in</button>
+                <div class="orContainer">
+                    <div class="leftLine"></div>
+                    OR
+                    <div class="rightLine"></div>
+                </div>
+                <button class="fbLogin" type="button">
+                    <img src="https://assets.stickpng.com/images/584ac2d03ac3a570f94a666d.png" alt="facebook img" />
+                    Log in with Facebook
+                </button>
+                <a href="" class="forgotPass">Forgot password?</a>
+            </form>
+        </div>
+        <p class="noAcc">
+            Don't have an account?<a class="signUp" href="">Sign up</a>
+        </p>
+        <div class="appLinksContainer">
+            <p class="appLink">Get the app.</p>
+            <div class="storeIcons">
+                <a class="glPlayStore" href=""><img alt="Get it on Google Play" class="pys"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" /></a><a
+                    class="microsoftStore" href=""><img class="mis"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Get_it_from_Microsoft_Badge.svg/1280px-Get_it_from_Microsoft_Badge.svg.png" /></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
